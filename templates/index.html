@@ -4,8 +4,10 @@
 <head>
     <meta charset="UTF-8">
     <title>首页</title>
-    <script type="text/javascript" src="{% static 'js/jquery-2.1.0.js'%}"></script>
-
+{#    引入静态文件方式一#}
+{#    <script type="text/javascript" src="{% static 'js/jquery-2.1.0.js'%}"></script>#}
+{#    引入静态文件方式二#}
+    <script type="text/javascript" src="/static/js/jquery-2.1.0.js"></script>
     <script>
         function tijiao(){
             {#获取id = id1的值#}
