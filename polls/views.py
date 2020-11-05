@@ -17,7 +17,7 @@ class SendSmsView(View):
         a_form = Acquire(request.POST)
         if a_form.is_valid():
             username = a_form.cleaned_data['username']
-            print('---------------------',username)
+            print('----------在这里看模板给视图发送的json（jaxa）数据---------',username)
 
 
 
